@@ -9,6 +9,9 @@ const nextConfig = {
       },
     ],
   },
+  // Enable src directory and App Router detection for Vercel
+  srcDir: 'src',
+  experimental: { appDir: true },
 };
 
 export default nextConfig;
